@@ -1,0 +1,1 @@
+Terminal client for [maelink](https://github.com/maelink-communications).
