@@ -5,6 +5,10 @@ import platform
 import os
 from websockets.sync.client import connect
 
+if os.path.isfile("config.json") is False:
+    with open("config.json", "w") as f:
+        f.write('{"http_url": "https://maelink-http.derpygamer2142.com","ws_url": "ws://maelink-ws.derpygamer2142.com"}')
+
 class fg:
     red = "\x1b[1;31m"
     yellow = "\x1b[1;33m"
