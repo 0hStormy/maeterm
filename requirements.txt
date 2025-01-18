@@ -1,2 +1,2 @@
 websockets==14.1
-requests==2024.12.14
+requests==2.32.3
