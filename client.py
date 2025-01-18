@@ -94,5 +94,7 @@ while True:
                 websocket.send(json.dumps(ws))
                 message = websocket.recv()
                 getPosts(useCache=False)
+        case "r":
+            getPosts(useCache=False)
         case _:
             cprint("Invalid command!", fg.red)
